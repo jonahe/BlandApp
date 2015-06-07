@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="0"
+    android:toYDelta="100%"
+    android:duration="300">
+	
+
+</translate>
+<!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/MaterialDesign/src/main/res/anim/snackbar_hide_animation.xml --><!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/build/intermediates/exploded-aar/BlandApp.v11/MaterialDesign/unspecified/res/anim/snackbar_hide_animation.xml -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\exploded-aar\BlandApp.v11\MaterialDesign\unspecified\jars\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-9b7e90421a1f88d5fa2f46a42941702254a70b34.jar" />
+    </item>
+    <item
+        jar="H:\Users\Erik\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-d66f0dd89ecd23ba20ea15ca02cc082096f4df0a.jar" />
+    </item>
+    <item
+        jar="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\exploded-aar\BlandApp.v11\MaterialDesign\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="553cc74e41f57c804513be85cfc30b812c216768">
+        <dex dex="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\pre-dexed\debug\classes-a5a1391ed17477c6f920581a7a209489995d69a6.jar" />
+    </item>
+    <item
+        jar="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\pre-dexed\debug\classes-bd1751e99a42f46060cf50809680a0afc82ccd31.jar" />
+    </item>
+    <item
+        jar="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="H:\Users\Erik\AndroidStudioProjects\BlandApp.v11\BlandAppv1\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-6180f90620179245b773cdb20a93d4a3a16d3195.jar" />
+    </item>
+
+</items>

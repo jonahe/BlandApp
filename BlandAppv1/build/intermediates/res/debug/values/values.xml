@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="colorDrink1">#A9DDD9</color>
+    <color name="colorDrink2">#FF8822</color>
+    <color name="colorDrink3">#FFCCBC</color>
+    <color name="colorPercentageSlider">#00BCD4</color>
+    <color name="colorResultat">@android:color/transparent</color>
+    <color name="colorVolumeSlider">#0097A7</color>
+    <!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/build/intermediates/exploded-aar/BlandApp.v11/MaterialDesign/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="green">#00FF00</color>
+    <color name="thumbColor">#66aaaaaa</color>
+    <declare-styleable name="CustomAttributes"><attr format="color|reference" name="rippleColor"/><attr format="float" name="rippleSpeed"/><attr format="boolean" name="showNumberIndicator"/><attr format="integer" name="max"/><attr format="integer" name="min"/><attr format="integer" name="value"/><attr format="integer" name="progress"/><attr format="dimension" name="ringWidth"/><attr format="boolean" name="checked"/><attr format="dimension" name="checkBoxSize"/><attr format="dimension" name="thumbSize"/><attr format="integer" name="iconDrawable"/><attr format="dimension" name="iconSize"/><attr format="boolean" name="animate"/><attr format="float" name="rippleBorderRadius"/><attr format="boolean" name="clickAfterRipple"/></declare-styleable>
+    <!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">BlandApp.v1</string>
+    <string name="firstTimeDialogMessage">Justera dragen efter dina ingredienser eller tills du uppnåt önskad alkoholhalt</string>
+    <!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

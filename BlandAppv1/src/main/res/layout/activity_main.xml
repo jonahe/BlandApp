@@ -1,0 +1,338 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/MainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/shape"
+     >
+     
+    <TextView
+    android:id="@+id/AppTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="BlandApp"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:gravity="center"  
+  	/>
+    
+	<Button
+	android:id="@+id/buttonInfo"
+	style="?android:attr/buttonStyleSmall"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_above="@+id/FrameLayout1"
+	android:layout_alignParentRight="true"
+	android:layout_alignParentTop="true"
+	android:textSize="15sp"
+	android:textStyle="bold"
+	android:text=" ? "
+	android:onClick="onInfoButtonClick"
+	 />
+    
+    
+    
+    <FrameLayout 
+    android:id="@+id/FrameLayout1"     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/AppTitle"
+    android:paddingTop="3dp"
+    android:paddingBottom="1dp"
+    >
+        <LinearLayout
+        android:id="@+id/LayoutDryck1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:background="@color/colorDrink1"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+         >
+        
+        <com.gc.materialdesign.views.Slider
+                android:id="@+id/VolumeSlider1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                materialdesign:max="100"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"
+                
+                />
+
+
+        
+        <com.gc.materialdesign.views.Slider
+                android:id="@+id/PercentageSlider1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                materialdesign:max="50"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"/>
+
+    		</LinearLayout>
+    		
+        <FrameLayout 
+        android:id="@+id/FrameLayout1.1"     
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:scaleType="fitCenter"
+    	>
+             
+                  <TextView
+            android:id="@+id/infoDryck1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dryck 1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            
+            
+             />
+             
+         </FrameLayout>
+
+        
+    </FrameLayout>
+
+
+
+    
+    
+     <FrameLayout 
+    android:id="@+id/FrameLayout2"     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/FrameLayout1"
+    android:paddingTop="3dp"
+    android:paddingBottom="1dp"
+    >
+        <LinearLayout
+        android:id="@+id/LayoutDryck2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:background="@color/colorDrink2"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+         >
+        
+        <com.gc.materialdesign.views.Slider
+                android:id="@+id/VolumeSlider2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                materialdesign:max="100"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"
+                
+                />
+
+
+        
+        <com.gc.materialdesign.views.Slider
+                android:id="@+id/PercentageSlider2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                materialdesign:max="50"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"/>
+
+    		</LinearLayout>
+    		
+        <FrameLayout 
+        android:id="@+id/FrameLayout2.1"     
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:scaleType="fitCenter"
+    	>
+             
+                  <TextView
+            android:id="@+id/infoDryck2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dryck 2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            
+            
+             />
+             
+         </FrameLayout>
+    		
+
+    </FrameLayout>   
+    
+     
+     
+     
+     
+    
+     <FrameLayout 
+    android:id="@+id/FrameLayout3"     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/FrameLayout2"
+    android:paddingTop="3dp"
+    android:paddingBottom="1dp"
+    >
+        <LinearLayout
+        android:id="@+id/LayoutDryck3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:background="@color/colorDrink3"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+         >
+        
+        <com.gc.materialdesign.views.Slider
+                android:id="@+id/VolumeSlider3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                materialdesign:max="100"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"
+                
+                />
+
+
+        
+        <com.gc.materialdesign.views.Slider
+                android:id="@+id/PercentageSlider3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                materialdesign:max="50"
+                materialdesign:min="0"
+                materialdesign:showNumberIndicator="true"/>
+
+    		</LinearLayout>
+    		
+        <FrameLayout 
+        android:id="@+id/FrameLayout3.1"     
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:scaleType="fitCenter"
+    	>
+             
+                  <TextView
+            android:id="@+id/infoDryck3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dryck 3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            
+            
+             />
+             
+         </FrameLayout>
+    		
+
+    </FrameLayout>    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+        <LinearLayout
+        android:id="@+id/LayoutResultat"   
+        android:layout_below="@+id/FrameLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="@color/colorResultat"
+        android:gravity="center"
+         >
+        
+
+
+        <TextView
+            android:id="@+id/ResultatTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Blandningens alkoholhalt är 0%"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_weight="3"
+            
+             />
+        
+         <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/buttonflatMoreInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#000204"
+                android:text="Förslag"
+               
+                android:onClick="onMoreSuggestionsClick"
+                android:layout_weight="1"
+                android:gravity="center"
+                
+             
+                 />
+        
+       
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layoutForGraphics"
+        android:orientation="horizontal"   
+        android:layout_below="@+id/LayoutResultat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        >
+        
+    </LinearLayout>
+    
+        <LinearLayout 
+        android:id="@+id/layoutForGraphics2"
+        android:orientation="horizontal"   
+        android:layout_below="@+id/layoutForGraphics"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        >
+        
+    </LinearLayout>
+    
+        <LinearLayout 
+        android:id="@+id/layoutForGraphics3"
+        android:orientation="horizontal"   
+        android:layout_below="@+id/layoutForGraphics2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        >
+        
+    </LinearLayout>
+
+
+
+</RelativeLayout>

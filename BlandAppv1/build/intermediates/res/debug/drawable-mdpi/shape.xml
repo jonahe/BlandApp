@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#15D7E8"
+        android:endColor="#126EFF"
+        android:angle="45"/>    
+</shape><!-- From: file:/H:/Users/Erik/AndroidStudioProjects/BlandApp.v11/BlandAppv1/src/main/res/drawable-mdpi/shape.xml -->

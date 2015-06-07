@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlandApp.v1</string>
+    
+    <string name="action_settings">Settings</string>
+    <color name="colorDrink1">#A9DDD9</color> 
+    <color name="colorDrink2">#FF8822</color>
+    <color name="colorDrink3">#FFCCBC</color>
+    <color name="colorResultat">@android:color/transparent</color>
+    <color name="colorVolumeSlider">#0097A7</color>
+    <color name="colorPercentageSlider">#00BCD4</color>
+    <string name="firstTimeDialogMessage">Justera dragen efter dina ingredienser eller tills du uppnåt önskad alkoholhalt</string>
+   
+
+</resources>
